@@ -6,6 +6,12 @@ android:
     - build-tools-18.1.1
     - android-18
 
+before_install:
+  - sudo rm -r /usr/local/gradle
+  - curl -LO https://services.gradle.org/distributions/gradle-2.1-bin.zip
+  - unzip -q gradle-2.1-bin.zip
+  - sudo mv gradle-2.1 /usr/local/gradle
+
 script:
     - gradle -v
     - gradle build
