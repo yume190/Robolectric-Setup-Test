@@ -8,6 +8,8 @@ android:
     - extra-android-support
     - tools
     - platform-tools
+    - extra-android-m2repository
+    - extra-google-m2repository
 
 before_install:
   - sudo rm -r /usr/local/gradle
