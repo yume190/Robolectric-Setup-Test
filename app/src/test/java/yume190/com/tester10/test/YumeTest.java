@@ -18,7 +18,7 @@ public class YumeTest extends AndroidTestCase {
 
     @Test
     public void testYume2() throws Exception{
-        assertEquals(1,1);
+        assertEquals(1,2);
     }
 
 }
