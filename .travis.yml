@@ -3,8 +3,8 @@ jdk: oraclejdk7
 
 android:
   components:
-    - build-tools-18.1.1
-    - android-18
+    - build-tools-21.0.2
+    - android-21
 
 before_install:
   - sudo rm -r /usr/local/gradle
