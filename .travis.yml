@@ -7,5 +7,6 @@ android:
     - android-18
 
 script:
+    - gradle -v
     - gradle build
     - gradle test
