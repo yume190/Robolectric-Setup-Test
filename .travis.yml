@@ -5,6 +5,7 @@ android:
   components:
     - build-tools-21.0.2
     - android-21
+    - extra-android-support
 
 before_install:
   - sudo rm -r /usr/local/gradle
