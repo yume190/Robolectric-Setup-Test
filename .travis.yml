@@ -6,6 +6,8 @@ android:
     - build-tools-21.0.2
     - android-21
     - extra-android-support
+    - tools
+    - platform-tools
 
 before_install:
   - sudo rm -r /usr/local/gradle
